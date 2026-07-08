@@ -5,9 +5,9 @@ document.addEventListener('DOMContentLoaded', () => {
     themeToggle.addEventListener('click', () => {
         document.body.classList.toggle('dark-theme');
         if(document.body.classList.contains('dark-theme')) {
-            themeToggle.textContent = '☀️ Modo Claro';
+            themeToggle.textContent = 'Modo Claro';
         } else {
-            themeToggle.textContent = '🌙 Modo Escuro';
+            themeToggle.textContent = 'Modo Escuro';
         }
     });
 
